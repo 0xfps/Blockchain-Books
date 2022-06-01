@@ -1,0 +1,36 @@
+Chapter 1:
+
+Ethereum is the world computer. It is deterministic and has states and a virtual machine that applies changes to that state. It is a computing infrastructure that runs smart contracts and uses its native currency, Ether, to maintain resources.
+
+Bitcoin is developed by the Bitcoin core OS project. And the term "Blockchain" encompasses a lot of networks and we need to clarify the specific network type e.g  open, public, global, decentralized, neutral, and censorship-resistant. Not all blockchains are created equal therefore "blockchain" is a vague term.
+
+Building upon Bitcoin was stressful and inconvenient hence, leading to the young Vitalik Buterin developing Ethereum with Dr. Gavin Wood - who saw that Ethereum could not just be a platform for programming money, but also a general-purpose computing platform - in 2013.
+
+The Ethereum platform was also designed to create a secure programming environment for people to build DApps.
+
+The first Ethereum block was mined on 30th July, 2015.
+
+The 4 main development stages are codenamed Frontier, Homestead, Metropolis and Serenity, and also, some hard forks with codenames, Ice Age(#200,000), DAO(#1,150,000), Tangerine Whistle(#2,463,000), Spurious Dragon(#2,675,000), Byzantium(#4,370,000), and Constantinople. (FHMS - IDTSBC).
+
+Like Bitcoin, Ethereum is a distributed consensus state machine, but, Ethereum tracks the state transitions of a general-purpose data store, i.e., a store that can hold any data expressible as a key–value tuple.
+
+Ethereum runs on Ethereum main network on TCP Port 30303. Ethereum has an EVM that runs bytecodes, bytecodes are what the smart contracts are compiled to before execution.
+
+Ethereum uses the Ethash PoW algorithm, but will be moved to PoS at some time in the future.
+
+Ethereum is also Turing Complete, meaning that it can be executed on a state machine while reading and writing to memory. Turing completeness, however is dangerous due to the possibility of a halting problem, as proposed by the inventor, Alan Turing.
+
+Hence, Ethereum cannot predict how long a program will run, without actually running it, this leads it to the chances of the program running forever.
+
+A DApps is a web application that is built on top of an open decentralized infrastructure service, it is made up of a smart contract and a web user interface.
+
+Web3 envisions to take the internet from generally owned to decentralization. The P2P storage network is called Swarm, and the P2P messaging network is called Whisper (More like a literal 'whisper').
+
+Ethereum grows and implements changes without minding the consequences it might have on the current users (not in terms of security), hence forcing them to upgrade, talk about "Move fast and break things".
+
+"As you learn and start looking deeper, there’s always another layer of complexity and wonder."
+
+"It’s easy to write code, but it’s very hard to write good and secure code."
+
+
+Lastly, don't bike-shed, just do it.

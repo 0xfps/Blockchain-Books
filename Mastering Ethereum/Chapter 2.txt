@@ -1,0 +1,17 @@
+Chapter 2:
+
+Ethereum's unit currency is called an Ether, or ETH or ♦. The lowest unit in the Ethereum currency system is called the wei, 1 ether is equal to 1 * (10 ^ 18) wei. Ethereum is not the currency, Ethereum is the system, ether is the currency.
+
+Ether units from lowest to highest in powers of 3: Wei, Babbage, Lovelace, Shannon (Gwei), Szabo, Finney, Ether, Grand, MegaEther. from 1 to 1 * 10 ^ 24.
+
+A wallet is simply a software that allows us to manage our ethereum currency. There are three types of wallets: mobile, desktop, web-based. The gas limit for sending a basic transaction is 21000 gas.
+
+Each Ethereum node runs the EVM.
+
+There are two types of account: Externally Owned Accounts (Wallets) and Contract Accounts (Smart Contracts). Contract accounts has smart contract code which the EOA doesn't have, it also does not have a private key.
+
+Smart Contracts cannot initiate a transaction, but EOAs can.
+
+** Builds a Faucet smart contract. **
+
+Registering a contract on the blockchain involves creating a special transaction whose destination is the address 0x0000000000000000000000000000000000000000, which is a zero address, and it tells the Ethereum blockchain that you want to register a contract.

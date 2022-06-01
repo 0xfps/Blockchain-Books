@@ -1,0 +1,14 @@
+At a high level, a wallet is a software application that serves as the primary user interface to Ethereum, for money management and ERC20 Token interactions.
+
+Types of wallet: 
+	- Non-determinstic wallet: This type of wallet is also known as a JBOK wallet, from the phrase “Just a Bunch of Keys”.
+	
+	- Determinstic wallets: The second type of wallet is a deterministic wallet, where all the keys are derived from a single master key, known as the seed.
+		
+		This includes:
+			- Hierarchical Deterministic Wallets.
+			
+Index numbers between 2^31 and (2^32)–1 (0x80000000 to 0xFFFFFFFF) are used only for hardened derivation. Therefore, if the index number is less than 231, the child is normal, whereas if the index number is equal to or above 231, the child is hardened.
+
+BIP-44 specifies the structure as consisting of five predefined tree levels:
+>>  m / purpose' / coin_type' / account' / change / address_index

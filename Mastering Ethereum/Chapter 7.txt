@@ -1,0 +1,24 @@
+Chapter 7:
+
+Smart contracts to refer to immutable computer programs that run deterministically in the context of an Ethereum Virtual Machine as part of the Ethereum network protocol.
+
+The attributes of a smart contract are:
+Computer programs, immutable, deterministic, EVM context, Decentralized world computer.
+
+Smart contracts own themselves, and cannot run on their own or in the background. The transaction has to be triggered by an EOA.
+
+** Is there any way to write contracts to trigger themselves? **
+
+If execution fails due to an error, all of its effects (changes in state) are “rolled back” as if the transaction never ran.
+
+To delete a contract, you execute an EVM opcode called SELFDESTRUCT (previously called SUICIDE) or selfdestruct(address) in the contract code.
+
+Smart contract languages include: LLL, Serpent, Solidity, Vyper, Bamboo. LLL was the first though, and its unnecessarily beautiful.
+
+ABI - Application Binary Interface. Using this ABI, any dapp or website or wallet can interact with our contract once it has been deployed.
+
+There is a long list of global variables.
+
+How to minimize gas:
+- Avoid dynamically sized arrays.
+- Avoid calls to other contracts.
