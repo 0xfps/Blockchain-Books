@@ -1,0 +1,59 @@
+Chapter 10: Tokens
+
+The word “token” derives from the Old English “tācen,” meaning a sign or symbol.
+
+The most obvious use of tokens is as digital private currencies.
+
+Tokens can also serve for different purposes like:
+
+	-Currency
+		A token can serve as a form of currency, with a value determined through private trade.
+	
+	- Resource
+		A token can represent a resource earned or produced in a sharing economy or resource-sharing environment; for example, a storage or CPU token representing resources that can be shared over a network.
+		
+	- Asset
+		A token can represent ownership of an intrinsic or extrinsic, tangible or intangible asset; for example, gold, real estate, a car, oil, energy, MMOG items, etc.
+		
+	- Access 
+		A token can represent access rights and grant access to a digital or physical property, such as a discussion forum, an exclusive website, a hotel room, or a rental car.
+		
+	- Equity
+		A token can represent shareholder equity in a digital organization (e.g., a DAO) or legal entity (e.g., a corporation).
+
+	- Voting
+		A token can represent voting rights in a digital or legal system.
+		
+	- Collectible
+		A token can represent a digital collectible (e.g., CryptoPunks) or physical collectible (e.g., a painting).
+		
+	- Identity
+		A token can represent a digital identity (e.g., avatar) or legal identity (e.g., national ID).
+	
+	- Attestation 
+		A token can represent a certification or attestation of fact by some authority or by a decentralized reputation system (e.g., marriage record, birth certificate, college degree).
+		
+	- Utility
+		A token can be used to access or pay for a service.
+
+Tokens can also be used as Utility tokens or Equity tokens.
+	- Utility tokens:
+		Those where the use of the token is required to gain access to a service, application, or resource.
+		
+	- Equity tokens:
+		Those that represent shares in the control or ownership of something, such as a startup.
+
+The first token stanard was introduced in 2015 as an ERC [Ethereum Request for Comments]. It was assigned issue #20 on GitHub and that was how ERC20 was born, this also moved on to be the EIP-20 [Ethereum Improvement Proposal].
+
+ERC20 is a standard for fungible tokens, meaning that different units of an ERC20 token are interchangeable and have no unique properties.
+
+They create an ERC20 token called Mastering Ethereum Token (MET).
+
+ERC20 had some issues and some other token ERC proposals came into play to help:
+	- ERC223
+	- ERC777
+	- ERC721 also known as deeds.
+
+We are also free to add to the functionality, functions that are not part of the standard.
+
+"Separate the real long termed vision tokens from the ones riddled with fraud."
