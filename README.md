@@ -6,5 +6,4 @@
 
 ## [How To Defi By Darren Lau, Daryl Lau, Teh Sze Jin, Kristian Kho, Erina Azmi, Benjamin Hor, Lucius Fang, Khor Win Win.](https://github.com/fps8k/Blockchain-Books/blob/dev/Books/How%20To%20Defi.pdf)
 
-
 ## [The Metadata Hash.](https://github.com/0xfps/Blockchain-Books/blob/dev/Books/Metadata%20Hash.md)
