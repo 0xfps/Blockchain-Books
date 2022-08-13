@@ -17,7 +17,7 @@ So in order to retrieve the data, the end of the deployed bytecode can be checke
   
 // … a1 65 62 7a 7a 72 30 58 20 2c27c1ef4be478b21f663f0d0ecdd1c73638730ffebbff1e3c7a234db7df6fd1 00 29
   
-                                **T H E   F R E A K I N G   M E T A D A T A   H A S H   Y A Y  !
+                              T H E   F R E A K I N G   M E T A D A T A   H A S H   Y A Y  !
 
 The answer to this riddle can be found in Solidity’s documentation, in the Encoding of the Metadata Hash in the Bytecode section. The documentation is brief, but it gives us exactly what we need. The compiler is hashing the contract’s metadata (which includes information about the contract such as its source code, how it was compiled, etc.) and injecting this hash into the contract’s own bytecode! This metadata can also be seen in Remix: Remix’s Compile tab > Details panel > Metadata section.
 
