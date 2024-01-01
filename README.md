@@ -6,6 +6,8 @@
 
 ## [How To Defi By Darren Lau, Daryl Lau, Teh Sze Jin, Kristian Kho, Erina Azmi, Benjamin Hor, Lucius Fang, Khor Win Win.](https://github.com/fps8k/Blockchain-Books/blob/dev/Books/How%20To%20Defi.pdf)
 
+## [How To DeFi Advanced By Lucius Fang, Benjamin Hor, Erina Azmi, Khor Win Win](https://github.com/0xfps/Blockchain-Books/blob/dev/Books/How%20To%20DeFi%20Advanced.pdf)
+
 ## [The Metadata Hash.](https://github.com/0xfps/Blockchain-Books/blob/dev/Books/Metadata%20Hash.md)
 
 ## [Solidity Documentation.](https://github.com/0xfps/Blockchain-Books/blob/dev/Books/Solidity%20Documentation.pdf)
